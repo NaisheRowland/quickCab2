@@ -11,6 +11,9 @@
 		A9EF7B422EAF67B200D5363B /* QuickCabMapViewRepresantable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EF7B412EAF679400D5363B /* QuickCabMapViewRepresantable.swift */; };
 		A9EF7B442EAF711500D5363B /* LocationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EF7B432EAF70F500D5363B /* LocationsManager.swift */; };
 		A9EF7B582EAF7C4000D5363B /* LocationSearchActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EF7B572EAF7C1000D5363B /* LocationSearchActivationView.swift */; };
+		A9EF7B5C2EAF836000D5363B /* MapViewActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EF7B5B2EAF834000D5363B /* MapViewActionButton.swift */; };
+		A9EF7B5E2EAFA58600D5363B /* LocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EF7B5D2EAFA57100D5363B /* LocationSearchView.swift */; };
+		A9EF7B602EAFAAB800D5363B /* LocationSearchResultsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EF7B5F2EAFAAA900D5363B /* LocationSearchResultsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		A9EF7B412EAF679400D5363B /* QuickCabMapViewRepresantable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickCabMapViewRepresantable.swift; sourceTree = "<group>"; };
 		A9EF7B432EAF70F500D5363B /* LocationsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsManager.swift; sourceTree = "<group>"; };
 		A9EF7B572EAF7C1000D5363B /* LocationSearchActivationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchActivationView.swift; sourceTree = "<group>"; };
+		A9EF7B5B2EAF834000D5363B /* MapViewActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewActionButton.swift; sourceTree = "<group>"; };
+		A9EF7B5D2EAFA57100D5363B /* LocationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchView.swift; sourceTree = "<group>"; };
+		A9EF7B5F2EAFAAA900D5363B /* LocationSearchResultsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchResultsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -109,6 +115,7 @@
 		A9EF7B3E2EAF669E00D5363B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A9EF7B5B2EAF834000D5363B /* MapViewActionButton.swift */,
 				A9EF7B3F2EAF66B800D5363B /* HomeView.swift */,
 				A9EF7B412EAF679400D5363B /* QuickCabMapViewRepresantable.swift */,
 			);
@@ -136,6 +143,8 @@
 		A9EF7B552EAF7BEE00D5363B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A9EF7B5F2EAFAAA900D5363B /* LocationSearchResultsCell.swift */,
+				A9EF7B5D2EAFA57100D5363B /* LocationSearchView.swift */,
 				A9EF7B572EAF7C1000D5363B /* LocationSearchActivationView.swift */,
 			);
 			path = Views;
@@ -223,9 +232,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9EF7B402EAF66C900D5363B /* HomeView.swift in Sources */,
+				A9EF7B602EAFAAB800D5363B /* LocationSearchResultsCell.swift in Sources */,
 				A9EF7B442EAF711500D5363B /* LocationsManager.swift in Sources */,
 				A9EF7B422EAF67B200D5363B /* QuickCabMapViewRepresantable.swift in Sources */,
+				A9EF7B5E2EAFA58600D5363B /* LocationSearchView.swift in Sources */,
 				A9EF7B582EAF7C4000D5363B /* LocationSearchActivationView.swift in Sources */,
+				A9EF7B5C2EAF836000D5363B /* MapViewActionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
