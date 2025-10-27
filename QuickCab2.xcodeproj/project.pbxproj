@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		A9EF7B402EAF66C900D5363B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EF7B3F2EAF66B800D5363B /* HomeView.swift */; };
 		A9EF7B422EAF67B200D5363B /* QuickCabMapViewRepresantable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EF7B412EAF679400D5363B /* QuickCabMapViewRepresantable.swift */; };
+		A9EF7B442EAF711500D5363B /* LocationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EF7B432EAF70F500D5363B /* LocationsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A90C70C12EAB6508000644D6 /* QuickCab2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickCab2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9EF7B3F2EAF66B800D5363B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A9EF7B412EAF679400D5363B /* QuickCabMapViewRepresantable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickCabMapViewRepresantable.swift; sourceTree = "<group>"; };
+		A9EF7B432EAF70F500D5363B /* LocationsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -67,6 +69,7 @@
 		A9EF7B382EAF658F00D5363B /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				A9EF7B432EAF70F500D5363B /* LocationsManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -143,7 +146,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
-				LastUpgradeCheck = 1630;
+				LastUpgradeCheck = 2600;
 				TargetAttributes = {
 					A90C70C02EAB6508000644D6 = {
 						CreatedOnToolsVersion = 16.3;
@@ -185,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9EF7B402EAF66C900D5363B /* HomeView.swift in Sources */,
+				A9EF7B442EAF711500D5363B /* LocationsManager.swift in Sources */,
 				A9EF7B422EAF67B200D5363B /* QuickCabMapViewRepresantable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +255,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -308,6 +313,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -323,6 +329,7 @@
 				DEVELOPMENT_TEAM = H2AXCUS5FF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please grant us access to your location to find you nearby rides";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -351,6 +358,7 @@
 				DEVELOPMENT_TEAM = H2AXCUS5FF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please grant us access to your location to find you nearby rides";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

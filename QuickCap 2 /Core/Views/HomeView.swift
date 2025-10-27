@@ -8,9 +8,14 @@ import SwiftUI
 
 struct HomeView : View {
     var body: some View {
-        Text("Hello, World!")
+        QuickCab2MapViewRepresantable()
+            .ignoresSafeArea()
+        
     }
 }
-#Preview {
-    HomeView()
+
+struct HomeView_Preview: PreviewProvider {
+    static var previews: some View {
+        HomeView()
+    }
 }
