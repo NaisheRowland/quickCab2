@@ -10,6 +10,7 @@
 		A9EF7B402EAF66C900D5363B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EF7B3F2EAF66B800D5363B /* HomeView.swift */; };
 		A9EF7B422EAF67B200D5363B /* QuickCabMapViewRepresantable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EF7B412EAF679400D5363B /* QuickCabMapViewRepresantable.swift */; };
 		A9EF7B442EAF711500D5363B /* LocationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EF7B432EAF70F500D5363B /* LocationsManager.swift */; };
+		A9EF7B582EAF7C4000D5363B /* LocationSearchActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EF7B572EAF7C1000D5363B /* LocationSearchActivationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +18,7 @@
 		A9EF7B3F2EAF66B800D5363B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A9EF7B412EAF679400D5363B /* QuickCabMapViewRepresantable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickCabMapViewRepresantable.swift; sourceTree = "<group>"; };
 		A9EF7B432EAF70F500D5363B /* LocationsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsManager.swift; sourceTree = "<group>"; };
+		A9EF7B572EAF7C1000D5363B /* LocationSearchActivationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchActivationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -84,8 +86,8 @@
 		A9EF7B3A2EAF659900D5363B /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				A9EF7B3E2EAF669E00D5363B /* Views */,
-				A9EF7B3C2EAF668A00D5363B /* ViewModel */,
+				A9EF7B542EAF7BC900D5363B /* LocationSearch */,
+				A9EF7B532EAF7BA300D5363B /* Home */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -111,6 +113,39 @@
 				A9EF7B412EAF679400D5363B /* QuickCabMapViewRepresantable.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		A9EF7B532EAF7BA300D5363B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A9EF7B3E2EAF669E00D5363B /* Views */,
+				A9EF7B3C2EAF668A00D5363B /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A9EF7B542EAF7BC900D5363B /* LocationSearch */ = {
+			isa = PBXGroup;
+			children = (
+				A9EF7B562EAF7BF500D5363B /* ViewModel */,
+				A9EF7B552EAF7BEE00D5363B /* Views */,
+			);
+			path = LocationSearch;
+			sourceTree = "<group>";
+		};
+		A9EF7B552EAF7BEE00D5363B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A9EF7B572EAF7C1000D5363B /* LocationSearchActivationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A9EF7B562EAF7BF500D5363B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +225,7 @@
 				A9EF7B402EAF66C900D5363B /* HomeView.swift in Sources */,
 				A9EF7B442EAF711500D5363B /* LocationsManager.swift in Sources */,
 				A9EF7B422EAF67B200D5363B /* QuickCabMapViewRepresantable.swift in Sources */,
+				A9EF7B582EAF7C4000D5363B /* LocationSearchActivationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
