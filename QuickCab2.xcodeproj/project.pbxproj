@@ -14,6 +14,7 @@
 		A9EF7B5C2EAF836000D5363B /* MapViewActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EF7B5B2EAF834000D5363B /* MapViewActionButton.swift */; };
 		A9EF7B5E2EAFA58600D5363B /* LocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EF7B5D2EAFA57100D5363B /* LocationSearchView.swift */; };
 		A9EF7B602EAFAAB800D5363B /* LocationSearchResultsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EF7B5F2EAFAAA900D5363B /* LocationSearchResultsCell.swift */; };
+		A9EF7B622EB10FD900D5363B /* LocationSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EF7B612EB10FC600D5363B /* LocationSearchViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		A9EF7B5B2EAF834000D5363B /* MapViewActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewActionButton.swift; sourceTree = "<group>"; };
 		A9EF7B5D2EAFA57100D5363B /* LocationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchView.swift; sourceTree = "<group>"; };
 		A9EF7B5F2EAFAAA900D5363B /* LocationSearchResultsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchResultsCell.swift; sourceTree = "<group>"; };
+		A9EF7B612EB10FC600D5363B /* LocationSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -153,6 +155,7 @@
 		A9EF7B562EAF7BF500D5363B /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				A9EF7B612EB10FC600D5363B /* LocationSearchViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9EF7B402EAF66C900D5363B /* HomeView.swift in Sources */,
+				A9EF7B622EB10FD900D5363B /* LocationSearchViewModel.swift in Sources */,
 				A9EF7B602EAFAAB800D5363B /* LocationSearchResultsCell.swift in Sources */,
 				A9EF7B442EAF711500D5363B /* LocationsManager.swift in Sources */,
 				A9EF7B422EAF67B200D5363B /* QuickCabMapViewRepresantable.swift in Sources */,
